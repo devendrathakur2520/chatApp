@@ -1,0 +1,76 @@
+/* Container for the chat widget */
+.chat-widget {
+    border: 1px solid #4a4545;
+    padding: 10px;
+    width: 300px;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    border-radius: 5px;
+  }
+  
+  /* Header of the chat widget */
+  .chat-widget h3 {
+    margin: 0;
+    font-size: 1.2em;
+    color: grey;
+  }
+  
+  /* Container for messages */
+  .messages {
+    height: 400px;
+    overflow-y: auto;
+    margin-bottom: 10px;
+    border: 1px solid #4a4545;
+    background-color: #2b2a29;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  /* Individual message styling */
+  .messages div {
+    margin: 5px 0;
+  }
+  
+  .messages .user {
+    text-align: right;
+    
+  }
+  
+  .messages .user strong {
+    color: red;
+  }
+  
+  .messages .other {
+    text-align: left;
+  }
+  
+  .messages .other strong {
+    color: #28a745;
+  }
+  
+  /* Input and button styling */
+  input[type="text"] {
+    width: calc(100% - 20px);
+    padding: 5px;
+    /* border: 1px solid #ddd; */
+    border: none;
+    /* border-radius: 3px; */
+  }
+  input:focus-visible{
+    outline: none;
+  }
+  
+  /* button {
+    width: 70px;
+    padding: 5px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  } */
+  
